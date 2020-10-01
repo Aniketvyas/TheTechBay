@@ -20,14 +20,15 @@ h1{
 .nav-item{
     padding:20px;
 }
-.nav-item:hover{
-    color:red;
-    background-color: rgb(10, 10, 53);
-    
-}
+
 
 .nav-link{
     font-size:20px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color:white;
+    background-color: rgb(12, 12, 73);
+    
 }
 
 #main-heading h1{
@@ -142,6 +143,9 @@ blockquote {
 
 
 .carousel-indicators li{
+    margin-left:40px;
+    margin-left:20px;
+    
     color:black;
     background-color: black;
 }
