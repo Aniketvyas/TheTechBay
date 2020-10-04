@@ -1,15 +1,19 @@
 
 
 body{
-    background-color:white;
+    /* background-color:rgb(41, 39, 39); */
     width:100%;
     height: 100%;
+    color:white;
 }
 p, h5{
     letter-spacing: 1px;;
 }
 h1{
     letter-spacing: 3px;
+}
+#top-section{
+    background-color:white;
 }
 
 
@@ -74,7 +78,7 @@ h1{
 }
 
 #struggle{
-    background-color: #2e2c76;
+    background-color: #2D3142;
     color: #fff;
     padding: 4rem 0;
     position: relative;
@@ -82,8 +86,9 @@ h1{
 }
 
 #red-struggle{
-    background-color: rgba(209, 31, 31, 0.33);
+    background-color:#EF8354;
     color:white;
+    border-image: url('../images/underline-shade.svg') 30 round;
 }
 #red-struggle h1{
     letter-spacing: 3px;
