@@ -18,30 +18,36 @@ h1{
 
 
 .navbar{
-    background-color:white;
+    background-color:#FCFCFC;
     overflow: hidden;
 }
-.nav-item{
-    padding:20px;
+
+.nav-item a{
+    color:#040F16;
+}
+.nav-item:hover{
+    background-color: #040F16;
+    color:White;
 }
 
-
-.nav-link{
-    font-size:20px;
-}
-.navbar-light .navbar-nav .nav-link:hover{
+.nav-item  a:hover{
     color:white;
-    background-color: rgb(12, 12, 73);
-    
+    background-color: #040F16;
 }
+
+.nav-item{
+    padding:10px;
+}
+
 
 #main-heading h1{
     font-size:100px;
-    color:rgb(25, 25, 99);
+    color: #040F16;
 }
 
 .color-filled-subheading h2{
     /* background-color: rgb(218, 188, 188); */
+    color: #006D77;
     letter-spacing: 5px;
 }
 
@@ -54,13 +60,14 @@ h1{
 }
 
 .no-color-subheading p{
+    color: #040F16;
     font-size:15px;
-    background-color: rgb(255, 210, 217);
+    background-color: #ee6c4d;
     letter-spacing: 3px;
 }
 .manual-btn{
     color:White;
-    background-color: rgb(18, 18, 106);
+    background-color:#bb4d00;
     
 }
 .manual-btn:hover{
@@ -78,7 +85,7 @@ h1{
 }
 
 #struggle{
-    background-color: #2D3142;
+    background-color:#040F16;
     color: #fff;
     padding: 4rem 0;
     position: relative;
@@ -86,7 +93,7 @@ h1{
 }
 
 #red-struggle{
-    background-color:#EF8354;
+    background-color: #0B4F6C;
     color:white;
     border-image: url('../images/underline-shade.svg') 30 round;
 }
@@ -109,7 +116,7 @@ background-size: cover;
 }
 
 .list-group li span{
-    color:rgb(13, 13, 80);
+    color:#040F16;
     font-size:20px;
     letter-spacing:1.5px;]
     font-weight: 300 bold;
@@ -117,11 +124,11 @@ background-size: cover;
 
 .commitment{
     font-weight:500;
-    color:rgb(13, 13, 80);
+    color: #040F16;
 }
 
 .list-group li{
-    color:red;
+    color:orange;
     font-size:20px;
 }
 
@@ -161,7 +168,7 @@ blockquote {
 }
 
 .list-group-2 li span{
-    color:rgb(14, 14, 65);
+    color:#040F16;
     font-size:15px;
 }
 .row{
@@ -178,7 +185,7 @@ blockquote {
   
   .card:hover {
   
-    box-shadow: 2px 3px 15px #999;
+    box-shadow: 2px 3px 15px rgb(87, 80, 80);
     transform: translateY(-1px);
   }
 
@@ -190,6 +197,8 @@ blockquote {
     color:rgb(4, 4, 56);
     font-size:14px;
 }
+
+
 
 @media screen and (max-width: 900px) {
     .slide-testimonial-image {
