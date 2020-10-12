@@ -123,12 +123,12 @@ $('.navbar-collapse a').click(function(){
       }
     }
     
-    // ADD SWIPE SUPPORT FOR TOUCH DEVICES
-    function setSwipeFn(tl, prev, next) {
-      const hammer = new Hammer(tl);
-      hammer.on("swipeleft", () => next.click());
-      hammer.on("swiperight", () => prev.click());
-    }
+    // // ADD SWIPE SUPPORT FOR TOUCH DEVICES
+    // function setSwipeFn(tl, prev, next) {
+    //   const hammer = new Hammer(tl);
+    //   hammer.on("swipeleft", () => next.click());
+    //   hammer.on("swiperight", () => prev.click());
+    // }
     
     // ADD BASIC KEYBOARD FUNCTIONALITY
     function setKeyboardFn(prev, next) {

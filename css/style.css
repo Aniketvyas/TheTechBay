@@ -2,8 +2,8 @@
 
 body{
     /* background-color:rgb(41, 39, 39); */
-    width:100%;
-    height: 100%;
+    /* width:100%;
+    height: 100%; */
     color:white;
 }
 p, h5{
@@ -19,10 +19,11 @@ h1{
 
 .navbar{
     background-color:#FCFCFC;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .nav-item a{
+    font-size:15px;
     color:#040F16;
 }
 .nav-item:hover{
@@ -35,9 +36,9 @@ h1{
     background-color: #040F16;
 }
 
-.nav-item{
+/* .nav-item{
     padding:10px;
-}
+} */
 
 
 #main-heading h1{
@@ -223,11 +224,6 @@ blockquote {
   outline: none;
   }
 
-  body {
-  font: normal 16px/1.5 "Helvetica Neue", sans-serif;
-  color: black;
-  }
-
 
  .div{
      background-color:rgb(199, 176, 176);
@@ -359,6 +355,7 @@ blockquote {
   .timeline ol li {
   width: auto; 
   }
+}
 
   .timeline ol {
   padding: 0;
