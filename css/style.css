@@ -22,20 +22,20 @@ h1{
     overflow: hidden;
 }
 
-.nav-item a{
+#nav-item a{
     color:#040F16;
 }
-.nav-item:hover{
+#nav-item:hover{
     background-color: #040F16;
     color:White;
 }
 
-.nav-item  a:hover{
+#nav-item  a:hover{
     color:white;
     background-color: #040F16;
 }
 
-.nav-item{
+#nav-item{
     padding:10px;
 }
 
@@ -421,3 +421,389 @@ blockquote {
 #submit-btn{
     background-color: rgb(10, 10, 55);;
 }
+
+
+ 
+  
+  .show {
+    display: block;
+  }
+ 
+  
+.technology-section {
+    padding-top: 100px;
+  }
+  
+  .technology-section .tech-content {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+  }
+  
+  .technology-section .tech-content .nav-link {
+    color: black;
+  }
+  
+  .technology-section .tech-content ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .technology-section .tech-content ul li {
+    border: 1px solid #eee;
+    min-width: 120px;
+    text-align: center;
+  }
+  
+  .technology-section .tech-content ul li.first-tab {
+    border-left: 2px solid #eee;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  
+  .technology-section .tech-content ul li.first-tab a.active,
+  .technology-section .tech-content ul li.first-tab a:hover {
+    border-left: 1px solid #eee;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  .technology-section .tech-content ul li.last-tab {
+    border-right: 2px solid #eee;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  
+  .technology-section .tech-content ul li.last-tab a.active,
+  .technology-section .tech-content ul li.last-tab a:hover {
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+  }
+  
+  .technology-section .tech-content ul li a:hover,
+  .technology-section .tech-content ul li a.active {
+    background: -webkit-gradient(linear, left top, right top, from(#78caff), to(#6172ff)) !important;
+    background: linear-gradient(to right, #78caff 0%, #6172ff 100%) !important;
+    color: white;
+    border-radius: 0;
+  }
+  
+  .technology-section .tech-content .row {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .technology-section .tech-content .row .content-wrapper {
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    border: 1px solid #f2f2f2;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 auto 20px;
+  }
+  
+  .technology-section .tech-content .row .content-wrapper:hover {
+    background: -webkit-gradient(linear, left top, right top, from(#78caff), to(#6172ff));
+    background: linear-gradient(to right, #78caff 0%, #6172ff 100%);
+  }
+  
+  .technology-section .tech-content .row .content-wrapper:hover .img-wrapper img {
+    -webkit-filter: brightness(0) invert(1);
+            filter: brightness(0) invert(1);
+  }
+  
+  .technology-section .tech-content .row .content-wrapper:hover .img-wrapper img path {
+    fill: white;
+  }
+  
+  .technology-section .tech-content .row .content-wrapper:hover h5 {
+    color: white;
+  }
+  
+  .technology-section .tech-content .row .content-wrapper .img-wrapper {
+    width: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .technology-section .tech-content .row .content-wrapper .img-wrapper img {
+    width: 100%;
+    max-height: 40px;
+    vertical-align: middle;
+  }
+  
+  .technology-section .tech-content .row .content-wrapper h5 {
+    font-size: 1em;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  
+ 
+  .top-heading {
+    margin: 0 0 40px 0;
+  }
+  .top-heading h2 {
+    margin: 0;
+    color: #000000;
+  }
+  
+.top-heading p {
+    margin: 0;
+    font-size: 1.3em;
+    color: #8d8b8e;
+  }
+
+  
+.nav-pills .nav-link {
+    border-radius: 0.25rem;
+  }
+  
+  .nav-pills .nav-link.active,
+  .nav-pills .show > .nav-link {
+    color: #ffffff;
+    background-color: #3490dc;
+  }
+  
+  .nav-fill .nav-item {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   section.home-testimonial {
+    padding: 0;
+    background-image: url('images/testimonial-bg.jpg?0ff75a2f1e86e98c97976ea5daac2ed8');
+  }
+  
+   section.home-testimonial .testimonial-sec-content {
+    padding: 90px 0;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(59, 58, 177, 0.83)), to(rgba(136, 52, 153, 0.819608)));
+    background: linear-gradient(to right, rgba(59, 58, 177, 0.83) 0%, rgba(136, 52, 153, 0.819608) 100%);
+  }
+  
+   section.home-testimonial .testimonial-sec-content .testimonial-carousel {
+    position: relative;
+  }
+  
+   section.home-testimonial .testimonial-sec-content .testimonial-carousel button {
+    background-color: #ffffff;
+    border: none;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    font-size: 1.5em;
+    cursor: pointer;
+    opacity: 0;
+  }
+  
+   section.home-testimonial .testimonial-sec-content .testimonial-carousel button.slick-prev {
+    left: -10%;
+  }
+  
+   section.home-testimonial .testimonial-sec-content .testimonial-carousel button.slick-next {
+    right: -10%;
+  }
+  
+   section.home-testimonial .testimonial-sec-content .testimonial-carousel button:hover {
+    background-color: #5459dc;
+    color: #ffffff;
+  }
+  
+   section.home-testimonial .top-heading {
+    padding-bottom: 80px;
+  }
+  
+   section.home-testimonial .top-heading h2 {
+    margin: 0;
+    color:white;
+    text-emphasis: bold;
+  }
+  
+   section.home-testimonial .top-heading p {
+    font-size: 1.3em;
+  }
+  
+   section.home-testimonial .testimonial-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 50px 0 0 0;
+  }
+  
+   section.home-testimonial .home-testimonial-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 30px 0;
+  }
+  
+   section.home-testimonial .home-testimonial-content .left {
+    width: 15%;
+  }
+  
+   section.home-testimonial .home-testimonial-content .left img {
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  
+   section.home-testimonial .home-testimonial-content .right {
+    width: 85%;
+  }
+  
+   section.home-testimonial .home-testimonial-content .right h3 {
+    margin: 0 0 30px 0;
+  }
+  
+   section.home-testimonial .home-testimonial-content .right p {
+    margin: 0 0 30px 0;
+    line-height: 2;
+  }
+  
+   section.home-testimonial .home-testimonial-content .right h5 {
+    margin: 0;
+    font-weight: 500;
+  }
+  
+   section.home-testimonial .home-testimonial-content .right h5 span {
+    color: #ffffff;
+  }
+  
+   section.home-testimonial:hover .testimonial-sec-content .testimonial-carousel button {
+    opacity: 1;
+  }
+  
+
+
+ section.home-testimonial .testimonial-sec-content .testimonial-carousel button.slick-prev {
+  left: -3%;
+}
+
+ section.home-testimonial .testimonial-sec-content .testimonial-carousel button.slick-next {
+  right: -3%;
+}
+
+ section.home-testimonial {
+    font-size: 12px;
+  }
+
+   section.home-testimonial .testimonial-sec-content .testimonial-carousel button.slick-prev {
+    left: -2%;
+  }
+
+   section.home-testimonial .testimonial-sec-content .testimonial-carousel button.slick-next {
+    right: -2%;
+  }
+   section.home-testimonial {
+    font-size: 12px;
+  }
+
+
+   
+   section.home-testimonial {
+    font-size: 12px;
+  }
+
+   section.home-testimonial .testimonial-sec-content {
+    padding: 40px 0;
+  }
+
+   section.home-testimonial .testimonial-sec-content .testimonial-btn {
+    padding: 20px 0 0 0;
+  }
+
+   /*  */
+
+   section.home-testimonial .top-heading {
+    padding-bottom: 30px;
+  }
+
+   section.home-testimonial .home-testimonial-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+   section.home-testimonial .home-testimonial-content .left {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 20px;
+  }
+
+   section.home-testimonial .home-testimonial-content .left img {
+    height: 80px;
+    width: 80px;
+  }
+
+   section.home-testimonial .home-testimonial-content .right {
+    width: 100%;
+    text-align: center;
+  }
+
+   section.testimonial-content {
+    font-size: 12px;
+    padding: 50px 0;
+  }
+
+   section.testimonial-content .client-people {
+    margin: 120px 0 0 0;
+  }
+
+   /* section.testimonial-content .bg-color.background-circle.second {
+    display: none;
+  } */

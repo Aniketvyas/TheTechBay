@@ -1,4 +1,71 @@
+
+
 $(document).ready(function(){
+  $(window).scroll(function(){
+  	var scroll = $(window).scrollTop();
+	  if (scroll > 100) {
+      $(".navbar").css("background" , "white");
+      $(".nav-link").css("color" , "black");
+	  }
+
+	  else{
+      $(".navbar").css("background" , "transparent" );  
+      $(".nav-link").css("color" , "white");	
+	  }
+  })
+
+  if ( $('.iso-box-wrapper').length > 0 ) { 
+    console.log('dfsnj');
+
+    var $container 	= $('.iso-box-wrapper'), 
+      $imgs 		= $('.iso-box img');
+
+
+
+    $container.imagesLoaded(function () {
+
+      $container.isotope({
+      layoutMode: 'fitRows',
+      itemSelector: '.iso-box'
+      });
+
+      $imgs.load(function(){
+        $container.isotope('reLayout');
+      })
+
+    });
+
+    //filter items on button click
+
+    $('.filter-wrapper li a').click(function(){
+
+        var $this = $(this), filterValue = $this.attr('data-filter');
+
+    $container.isotope({ 
+      filter: filterValue,
+      animationOptions: { 
+          duration: 750, 
+          easing: 'linear', 
+          queue: false, 
+      }              	 
+    });	            
+
+    // don't proceed if already selected 
+
+    if ( $this.hasClass('selected') ) { 
+      return false; 
+    }
+
+    var filter_wrapper = $this.closest('.filter-wrapper');
+    filter_wrapper.find('.selected').removeClass('selected');
+    $this.addClass('selected');
+
+      return false;
+    }); 
+
+}
+
+});
     $("a").on('click', function(event) {
 
         // Make sure this.hash has a value before overriding default behavior
@@ -21,7 +88,6 @@ $(document).ready(function(){
         } // End if
     });
     
-});
 
 $('.navbar-collapse a').click(function(){
   $(".navbar-collapse").collapse('hide');
@@ -148,4 +214,40 @@ $('.navbar-collapse a').click(function(){
       });
     }
     
-    })();
+    });
+
+
+
+
+
+
+
+$('.ma_link').click(function($e) {
+  $e.preventDefault();
+});
+
+
+$('.testimonial-carousel').slick({
+  dots: false,
+  slidesToShow: 2,
+  slidesToScroll: 2,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  arrows: true,
+  prevArrow: '<button class="slick-prev slick-arrow transition" type="button" ><i class="fas fa-angle-left"></i></button>',
+  nextArrow: '<button class="slick-next slick-arrow transition" type="button" ><i class="fas fa-angle-right"></i></button>',
+  infinite: true,
+  responsive: [{
+      breakpoint: 1400,
+      settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+      }
+  }, {
+      breakpoint: 800,
+      settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+      }
+  }]
+});
