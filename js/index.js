@@ -79,4 +79,6 @@
         }
     });
     
-  
+    $( document ).ready(function() {
+      $( "#over" ).toggle( "bounce", { times: 3 }, "slow" );
+    });
