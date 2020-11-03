@@ -46,6 +46,10 @@ h1 {
     font-weight: 100;
 }
 
+.main-headin {
+    display: block;
+}
+
 #main-heading h1 {
     font-size: 100px;
     color: #040F16;

@@ -204,30 +204,6 @@
     }
 }
 
-@media only screen and (max-width: 1023px) {
-    section .circle-one,
-    section .circle-two,
-    section .circle-three,
-    section .circle-four {
-        display: none;
-    }
-    .about-section {
-        padding: 100px 0px 70px;
-    }
-    .style-two .banner-carousel .slide-item {
-        padding: 250px 0px 170px;
-    }
-    .about-section .upper-boxes {
-        margin-bottom: 0;
-    }
-    .about-section.style-two {
-        padding-bottom: 100px;
-    }
-    .about-section.alternate {
-        padding: 100px 0px 70px;
-    }
-}
-
 .sec-title .sub-title {
     color: #3cc88f;
 }
