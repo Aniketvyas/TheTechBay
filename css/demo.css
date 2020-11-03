@@ -247,7 +247,7 @@
     line-height: 1.2em;
     font-weight: 400;
     text-transform: capitalize;
-    font-family: 'Yeseva One', cursive;
+    font-family: 'Open Sans', sans-serif;
 }
 
 @media only screen and (max-width: 767px) {
