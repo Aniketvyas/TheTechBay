@@ -332,6 +332,12 @@ h1 {
     text-align: center;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
 :root {
     --dark-green: #9cc675;
     --dark-yellow: #e89a3d;
@@ -343,6 +349,36 @@ h1 {
     --light-teal: #a6c8cc;
     --light-gray: #ddd5d6;
     --theme-color2: #e89a3d;
+}
+
+.site-logo {
+    width: 218.33px !important;
+    margin-right: 50px;
+}
+
+.btn {
+    border-radius: 5px;
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    line-height: 12px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 14px 30px;
+    cursor: pointer;
+}
+
+.btn-theme {
+    background: var(--theme-color1);
+    color: #212121;
+}
+
+.c-container {
+    margin: auto;
+    width: 93%;
+    position: relative;
+    z-index: 1;
 }
 
 .btn-outline-white {
@@ -374,6 +410,9 @@ h1 {
     color: var(--text-dark);
 }
 
+
+/* common css up */
+
 .testimonial p {
     font-size: 28px;
     letter-spacing: 0.02em;
@@ -385,15 +424,26 @@ h1 {
     font-size: 18px;
     letter-spacing: 0.04em;
     line-height: 35px;
-    text-align: right;
+    text-align: left;
 }
 
 .testimonial .designation {
     font-size: 14px;
     letter-spacing: 0.04em;
-    text-align: right;
+    text-align: left;
     color: #fff;
     opacity: 0.65;
+}
+
+.unt {
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+.hero-text {
+    font-size: 30px;
+    letter-spacing: 0.02em;
+    color: #fff;
 }
 
 .gallery-thumbs {
@@ -455,6 +505,8 @@ h1 {
 }
 
 .testimonial-section .quote {
+    width: 100%;
+    height: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -465,6 +517,10 @@ h1 {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    overflow: scroll;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .swiper-container.testimonial {
@@ -503,7 +559,7 @@ h1 {
 
 .quote-icon {
     width: 38px;
-    display: inline-block;
+    display: block;
     margin-bottom: 30px;
 }
 
@@ -642,22 +698,21 @@ h1 {
         background-color: #ffffff;
         display: block;
     }
-    .testi-user-img {
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
+    .testimonial-section .quote p {
+        font-size: 2px;
     }
-    .swiper-slide {
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
+    .testimonial-section .quote {
+        width: 50%;
+        height: 50%;
     }
-    .testimonial p {
-        font-size: 13px;
+    .quote-icon {
+        width: 18px;
+        display: block;
+        margin-bottom: 10px;
     }
     .testimonial .name {
         font-weight: bold;
-        font-size: 16px;
+        font-size: 10px;
     }
     .testimonial .designation {
         font-size: 14px;
@@ -666,11 +721,38 @@ h1 {
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
     .color-filled-subheading h1 {
         color: #1d5caf;
         font-size: 40px;
         letter-spacing: 2px;
+    }
+    .testimonial-section .quote p {
+        font-size: 10px;
+    }
+    .swiper-container.testimonial {
+        height: 70vh;
+        overflow: scroll;
+    }
+    .testimonial-section .user-saying {
+        background: var(--theme-color2);
+        width: 60%;
+        color: #fff;
+        height: 100%;
+    }
+    .quote-icon {
+        width: 18px;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .testimonial .name {
+        font-weight: bold;
+        font-size: 10px;
+    }
+    .testimonial .designation {
+        font-size: 12px;
+        color: #fff;
+        opacity: 0.65;
     }
 }
 
