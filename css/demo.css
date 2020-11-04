@@ -68,7 +68,7 @@
 
 .about-section .left-column .inner {
     position: relative;
-    padding-top: 30px;
+    /* padding-top: 30px;   */
     max-width: 420px;
 }
 
@@ -214,12 +214,16 @@
 
 .sec-title h2 {
     position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: block;
-    font-size: 60px;
+    font-size: 40px;
     line-height: 1.2em;
     font-weight: 400;
     text-transform: capitalize;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif;
+     */
+    font-family: 'Times New Roman', Times, serif;
 }
 
 @media only screen and (max-width: 767px) {
