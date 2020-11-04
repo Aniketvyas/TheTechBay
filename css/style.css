@@ -435,17 +435,6 @@ body {
     opacity: 0.65;
 }
 
-.unt {
-    margin-bottom: 20px;
-    margin-top: 60px;
-}
-
-.hero-text {
-    font-size: 30px;
-    letter-spacing: 0.02em;
-    color: #fff;
-}
-
 .gallery-thumbs {
     height: 100%;
 }
@@ -680,7 +669,7 @@ body {
     fill: white;
 }
 
-@media screen and(max-width: 500px) {
+@media screen and(max-width: 600px) {
     .color-filled-subheading h1 {
         color: #1d5caf;
         font-size: 20px;
@@ -701,21 +690,34 @@ body {
     .testimonial-section .quote p {
         font-size: 2px;
     }
-    .testimonial-section .quote {
-        width: 50%;
-        height: 50%;
+    .swiper-slides {
+        padding-top: 10px;
+        overflow: scroll;
+    }
+    .swiper-container.testimonial {
+        height: 50vh;
+        overflow: scroll;
+    }
+    .testimonial-section .user-saying {
+        background: var(--theme-color2);
+        width: 60%;
+        color: #fff;
+        height: 100%;
+        height: 90%;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
     .quote-icon {
-        width: 18px;
+        width: 12px;
         display: block;
-        margin-bottom: 10px;
+        margin-bottom: 7px;
     }
     .testimonial .name {
         font-weight: bold;
-        font-size: 10px;
+        font-size: 6px;
     }
     .testimonial .designation {
-        font-size: 14px;
+        font-size: 5px;
         color: #fff;
         opacity: 0.65;
     }
@@ -729,6 +731,10 @@ body {
     }
     .testimonial-section .quote p {
         font-size: 10px;
+    }
+    .swiper-slides {
+        padding-top: 10px;
+        overflow: scroll;
     }
     .swiper-container.testimonial {
         height: 70vh;
